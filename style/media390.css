@@ -1,0 +1,146 @@
+@media (width < 720px) {
+    .card-mobile {
+        display: block;
+    }
+
+    .old-label {
+        display: none;
+    }
+
+    .new-label {
+        display: flex;
+    }
+
+    .old-mobile-sum {
+        display: none;
+    }
+
+    .new-mobile-sum {
+        display: block;
+    }
+
+    .wrapper-bar {
+        width: 320px;
+    }
+
+    .header {
+        width: 320px;
+        height: 56px;
+    }
+
+    .main {
+        width: 320px;
+    }
+
+    .wrapper-footer {
+        width: 320px;
+        grid-template-columns: repeat(1, 320px);
+        row-gap: 30px;
+        padding-block-start: 40px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin-block-start: 40px;
+        margin-block-end: 24px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 155px);
+        row-gap: 30px;
+        column-gap: 10px;
+    }
+
+    .card {
+        height: 320px;
+    }
+
+    .card-item {
+        min-height: 230px;
+        border-radius: 10px;
+    }
+
+    .footer {
+        margin-block-start: 40px;
+        height: 867px;
+    }
+
+    .card1 {
+        display: none;
+    }
+
+    .card_name {
+        font-size: 16px;
+        font-weight: 500;
+        margin-block-start: 10px;
+    }
+
+    .wrapper-price {
+        font-size: 16px;
+        gap: 10px;
+    }
+
+    .currency {
+        margin-inline-start: 2.4px;
+    }
+
+    .old-sum {
+        font-size: 14px;
+    }
+    
+    .label {
+        width: 70px;
+        height: 24px;
+        font-weight: 600;
+        font-size: 14px;
+    }
+    
+    .label-description {
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 140%;
+        
+    }
+
+    .address {
+        margin-block-start: 4px;
+        gap: 10px;
+    }
+
+    .footer-menu {
+        grid-column: 1;
+        grid-row: 4 / 5;
+        margin-block-start: 10px;
+        margin-inline-start: 0;
+    }
+
+    .footer-menu_list {
+        gap: 20px;
+    }
+
+    .contacts {
+        grid-column: 1;
+        grid-row: 3 / 4;
+    }
+
+    .oferta {
+        grid-row: 5 / 6;
+    }   
+
+    .wrapper-pay-logo {
+        grid-column: 1;
+        grid-row: 6 / 7;
+    }
+
+    .captcha {
+        grid-column: 1;
+        grid-row: 7 / 8;
+        width: 321px;
+        margin-inline-start: 0;
+        padding-block-start: 0;
+    }
+
+    .phone {
+        margin-block-start: 10px;
+    }
+}

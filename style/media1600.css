@@ -1,0 +1,87 @@
+@media (width < 1900px) {
+    .new-label {
+        display: none;
+    }
+
+    .menu-button {
+        display: none;
+    }
+
+    .card-mobile {
+        display: none;
+    }
+
+    .old {
+        display: none;
+    }
+
+    .wrapper-bar {
+        width: 1240px;
+    }
+
+    .header {
+        width: 1240px;
+    }
+
+    .menu {
+        margin-inline-start: 160px;
+    }
+
+    .button-search {
+        margin-inline-start: 190px;
+    }
+
+    .wrapper-input {
+        display: none;
+    }
+
+    .main {
+        width: 1240px;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(4, 287px);
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .card {
+        height: 516px;
+    }
+
+    .card-item {
+        min-height: 428px;
+    }
+
+    .card-button {
+        margin: 20px 15px;
+    }
+
+    .footer {
+        margin-block-start: 65px;
+    }
+
+    .wrapper-footer {
+        width: 1240px;
+    }
+
+    .footer-logo {
+        width: 217px;
+    }
+
+    .address {
+        padding-inline-start: 0;
+    }
+
+    .footer-menu {
+        margin-inline-start: 0;
+    }
+}
+
+
+
+

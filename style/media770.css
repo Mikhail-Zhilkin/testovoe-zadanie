@@ -1,0 +1,130 @@
+@media (width < 1400px) {
+    .bar {
+        display: none;
+    }
+
+    .button-search {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+    }
+
+    .wrapper-bar {
+        width: 680px;
+    }
+
+    .header {
+        width: 680px;
+        height: 60px;
+    }
+
+    .main {
+        width: 680px;
+    }
+
+    .wrapper-footer {
+        width: 680px;
+        grid-template-columns: repeat(3, auto);
+        padding-block-start: 50px;
+    }
+
+    .footer-logo {
+        grid-column: span 3;
+    }
+
+    .footer-menu {
+        grid-column: 3 / 4;
+        margin-block-start: 33.23px;
+        margin-inline-start: 40px;
+    }
+
+    .footer-menu_list {
+        gap: 28px;
+    }
+
+    .contacts {
+        grid-column: 2 / 3;
+        grid-row: 2 / 3;
+    }
+
+    .captcha {
+        grid-row: 4 / 5;
+        grid-column: 2 / span 2;
+        width: 382px;
+        margin-inline-start: 60px;
+        padding-block-start: 40px;
+    }
+    
+    .wrapper-pay-logo {
+        grid-row: 4 / 5;
+        justify-content: start;
+        padding-inline-start: 7px;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .wrapper-input {
+        display: none;
+    }
+
+    .basket {
+        display: none;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 320px);
+        row-gap: 50px;
+        column-gap: 40px;
+    }
+
+    .card {
+        height: 565px;
+    }
+
+    .card-item {
+        min-height: 477px;
+    }
+
+    .old {
+        display: block;
+    }
+
+    .new {
+        display: none;
+    }
+
+    .card-button {
+        margin: 20px 31px;
+    }
+
+    .title {
+        font-size: 32px;
+        margin-block-start: 50px;
+    }
+
+    .logo {
+        width: 141px;
+    }
+
+    .footer {
+        margin-block-start: 50px;
+        height: 521px;
+    }
+
+    .footer-logo {
+        width: 180px;
+    }
+
+    .address {
+        margin-block-start: 33.23px;
+    }
+
+    .oferta {
+        align-items: start;
+        width: 242px;
+    }
+}
